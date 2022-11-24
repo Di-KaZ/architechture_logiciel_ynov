@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "npm": "^9.1.2",
+    "tsuml2": "^0.6.1",
+    "typescript": "^4.9.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.4"
+  }
+}
