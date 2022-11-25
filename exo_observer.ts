@@ -85,7 +85,7 @@ function main(): void {
   ]);
 
   const user1 = new Account("GET_MOUSSED");
-  const user2 = new Account("FloiLY");
+  const user2 = new Account("FlokiLY");
 
   dakotaz.follow(user1);
   dakotaz.subscribe(user2);
