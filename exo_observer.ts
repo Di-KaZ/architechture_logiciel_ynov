@@ -58,11 +58,11 @@ class Streamer extends Account {
     setTimeout(this.notifyFollowers.bind(this), 1000);
   }
 
-  notifyFollowers(): void {
+  private notifyFollowers(): void {
     this.followers.forEach((account) => account.notify(new IsStreamingEvent()));
   }
 
-  notifySubscribers(): void {
+  private notifySubscribers(): void {
     this.subscribers.forEach((account) =>
       account.notify(new IsStreamingEvent())
     );
